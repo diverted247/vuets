@@ -11,13 +11,13 @@ The vue.$init method has the same API as the Vue constuctor but provides a means
 Vue is dependent on ES5 Javascript and thus you must compile Typescript to output ES5 with the `-t 'ES5'` flag.
 
 ###How to Use:
-> 1. Install Node.js: http://nodejs.org/
-> 2. Install Typescript 1.0 `npm install -g typescript`
-> 3. Clone: `git clone https://github.com/diverted247/vuets.git; cd vuets`
-> 4. Build: `tsc -t 'ES5' build.ts`
+ 1. Install Node.js: http://nodejs.org/
+ 2. Install Typescript 1.0 `npm install -g typescript`
+ 3. Clone: `git clone https://github.com/diverted247/vuets.git; cd vuets`
+ 4. Build: `tsc -t 'ES5' build.ts`
  
 
 ###License:
-> MIT - Reuse and Remix as needed.
+MIT - Reuse and Remix as needed.
 
 Ted :)
