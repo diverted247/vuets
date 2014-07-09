@@ -1,6 +1,6 @@
 declare class Router{
-    new ( ):Router;
-    new ( options?:any ):Router;
+    constructor ( ):Router;
+    constructor ( options?:any ):Router;
     on( event:string , callback:any );
     get( event:string , callback:any );
     get( callback:any );
