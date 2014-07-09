@@ -1,7 +1,7 @@
 VueTS
 =====
 
-VueTS is an approach to making Typescript and Vue work seamlessly together with full type support and api definitions. The repository contains a series of example applications and definition files for use with Vue and TypeScript.
+VueTS is an approach to making Typescript and Vue work seamlessly together with full type support and api definitions. The repository contains a series of example applications and definition files for use with Vue and TypeScript. This exploration is part of a larger project using Vue and Typescript at Harland Clarke.
 
 ###Notes:
 The current build of Vue within VueTS is from [Vue-Dev](https://github.com/yyx990803/vue/tree/dev). This release adds a vue.$init(config) method to allow configuration after instance creation. Typescript limits use of 'this' within calls to super within subclasses. This allows one extend Vue Classes directly in Typescript with full member typing and compile-time errors.
@@ -19,5 +19,11 @@ Vue is dependent on ES5 Javascript and thus you must compile Typescript to outpu
 
 ###License:
 MIT - Reuse and Remix as needed.
+
+###Credits:
+ * [Vue](http://vuejs.org/)
+ * Evan You @youyuxi
+ * Ryan Cavanaugh @SeaRyanC
+ * Harland Clarke
 
 Ted :)
