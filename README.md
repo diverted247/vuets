@@ -6,7 +6,7 @@ VueTS is an approach to making Typescript and Vue work seamlessly together with 
 ###Notes:
 The current build of Vue within VueTS is from [Vue-Dev](https://github.com/yyx990803/vue/tree/dev). This release adds a vue.$init(config) method to allow configuration after instance creation. Typescript limits use of 'this' within calls to super within subclasses. This allows one to extend Vue classes directly in Typescript with full member typing and compile-time errors.
 
-The vue.$init method has the same API as the Vue constuctor but provides a means to pass reference to class members/methods. This aligns the configuration API of Vue with the runtime API and allows for far deeper compile time errors within a project.
+The vue.$init method has the same API as the Vue constuctor but provides a means to pass references to class members/methods. This aligns the configuration API of Vue with the runtime API and allows for far deeper compile time errors within a project.
 
 Vue is dependent on ES5 Javascript and thus you must compile Typescript to output ES5 with the `-t 'ES5'` flag.
 
