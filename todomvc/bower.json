@@ -1,0 +1,25 @@
+{
+  "name": "todomvc",
+  "version": "0.2.0",
+  "homepage": "https://github.com/diverted247/vuets",
+  "authors": [
+    "Ted Patrick <ted@tedpatrick.com>"
+  ],
+  "description": "Todomvc using TypeScript and VueJS",
+  "moduleType": [
+    "amd"
+  ],
+  "dependencies": {
+    "director": "1.2.2",
+    "todomvc-common": "0.1.9",
+    "vue": "0.10.6"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
